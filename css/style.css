@@ -3203,12 +3203,13 @@ textarea.form-control {
 }
 
 .heading h5 {
+    margin-bottom: 0;
     position: relative;
     left: 80px;
     color: #fff;
     padding-right: 30px;
-   font-size: 20px;
-   font-weight: 800;
+    font-size: 20px;
+    font-weight: 800;  
 }
 
 @media (max-width: 480px) {
@@ -3225,8 +3226,10 @@ textarea.form-control {
   }
 
   .heading2 h6 {
+   margin-bottom: 0;
    font-size: 14px;
    font-weight: 800;
    color: #fff;
-   padding-left: 30px;
+   text-align: center;
+   line-height: 1.5;
 }
