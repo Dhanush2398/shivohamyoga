@@ -222,7 +222,7 @@ body {
     }
     .header-style-1 .site-navigation ul.navigation>li.active>a,
     .header-style-1 .site-navigation ul.navigation>li>a:hover {
-        color: var(--pbmit-secondary-color);
+        color: #000;
     }
     .site-header.header-style-2>.container {
         max-width: none;
