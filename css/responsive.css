@@ -370,7 +370,7 @@ body {
         min-height: 1px;
         vertical-align: top;
         position: relative;
-        margin: 0 28px;
+        margin: 0 18px;
     }
     .site-navigation ul.navigation>li>a:hover {
         color: rgba(255, 255, 255, .8);
@@ -451,7 +451,7 @@ body {
     .main-menu ul>li.dropdown>a:after {
         content: "";
         position: absolute;
-        right: -31px;
+        right: -11px;
         top: 50%;
         -khtml-transform: translateX(0%) translateY(-50%);
         -moz-transform: translateX(0%) translateY(-50%);
