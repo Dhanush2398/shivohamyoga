@@ -2017,6 +2017,7 @@ aside.widget.widget-tag-cloud a:hover {
 
 .post.blog-classic .pbmit-featured-wrapper img {
     border-radius: 30px;
+    
 }
 
 .post.blog-classic:last-child {
@@ -3232,4 +3233,77 @@ textarea.form-control {
    color: #fff;
    text-align: center;
    line-height: 1.5;
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+@media (max-width: 1024px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.pbmit-blog-style-1 {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .event-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.pbmit-ele-event_listing {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pbmit-event-banner-img {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.pbmit-event-infomation {
+    padding: 10px 0;
+}
+
+.pbmit-heading-text a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.pbmit-event-meta {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+
+.pbmit-featured-wrapper img {
+      height: 200px;
 }
