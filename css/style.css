@@ -3229,8 +3229,8 @@ textarea.form-control {
 
   .heading2 h6 {
    margin-bottom: 0;
-   font-size: 14px;
-   font-weight: 900;
+   font-size: 18px;
+   font-weight: 800;
    color: #F50622;
    text-align: center;
    line-height: 1.5;
@@ -3347,12 +3347,13 @@ textarea.form-control {
 
 .qr img{
     height: 150px;
+    padding-top: 10px;
 }
 
 .qr2 img{
     height: 150px;
     padding-top: 20px;
-    padding-left: 150px;
+    padding-left: 156px;
 }
 
 @media (max-width: 480px) {
