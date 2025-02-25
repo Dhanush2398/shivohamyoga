@@ -615,3 +615,25 @@ if (jQuery('.pbmit-element-viewtype-masonry').length > 0) {
 
     })
 };
+
+document.addEventListener("DOMContentLoaded", function () {
+    const popup = document.getElementById("popup");
+    const closeBtn = document.querySelector(".close-btn");
+
+  
+    setTimeout(() => {
+        popup.classList.add("show");
+    }, 500); 
+
+  
+    closeBtn.addEventListener("click", function () {
+        popup.classList.remove("show");
+    });
+
+   
+    popup.addEventListener("click", function (event) {
+        if (event.target === popup) {
+            popup.classList.remove("show");
+        }
+    });
+});

@@ -1452,6 +1452,11 @@ body {
     margin-bottom: 0px;
 }
 
+@media (max-width: 768px) {
+    .pbmit-ihbox-style-13 .pbmit-element-title {
+        font-size: 12px;  
+    }
+}
 .pbmit-ihbox-style-13 .pbmit-element-subtitle {
     font-size: 18px;
     line-height: 22px;
@@ -4824,6 +4829,7 @@ body {
     -webkit-text-stroke-width: 0;
     color: transparent;
     letter-spacing: 0.8px;
+    
 }
 
 .pbmit-marquee-effect-style-1 .pbmit-element-title:before {
