@@ -1454,7 +1454,8 @@ body {
 
 @media (max-width: 768px) {
     .pbmit-ihbox-style-13 .pbmit-element-title {
-        font-size: 12px;  
+        font-size: 12px;
+  
     }
 }
 .pbmit-ihbox-style-13 .pbmit-element-subtitle {
@@ -4825,7 +4826,7 @@ body {
     font-weight: 800 !important;
     overflow: visible !important;
     text-shadow: 1px 1px 0 rgba(24, 26, 23, .8), -1px -1px 0 rgba(24, 26, 23, .8), 1px -1px 0 rgba(24, 26, 23, .8), -1px 1px 0 rgba(24, 26, 23, .8), 1px 1px 0 rgba(24, 26, 23, .8);
-    -webkit-text-fill-color: var(--pbmit-light-color);
+    -webkit-text-fill-color: #000;
     -webkit-text-stroke-width: 0;
     color: transparent;
     letter-spacing: 0.8px;
